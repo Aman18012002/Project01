@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    padding:3rem;
+    /* margin-left:4rem;
+     */
+  
+}
+.list{
+    list-style: none;
+    display: flex;   
+    font-family: Orbitron;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+li:nth-child(1) {
+    text-decoration: underline;
+    font-weight: 800;
+}
+.list-item{
+    /* margin-top: .8rem; */
+    margin-left: 4rem;
+    margin-left: 4rem;
+}
+.button-group{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 1rem;
+}
+.search-icon{
+   width: 40px;
+}
+.nav-button{
+padding-left: 3rem;
+padding-right: 3rem;
+padding-top: 8px;
+padding-bottom: 8px;
+border-radius: 10px;
+font-family: poppins;
+}
+.hero-container{
+    position: relative;
+    display: flex;
+    padding: 3rem;
+    justify-content: space-between;
+  
+}
+.square{
+    position: absolute;
+    top: 19rem;
+    left: 14rem;
+    z-index: -1;
+}
+.star{
+    position: absolute;
+    top: -.5rem;
+    right: 10rem;
+}
+.globe{
+    position: absolute;
+    /* top: .5rem; */
+   top: -2rem;
+    right: 40rem;
+}
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem;
+}
+.hero-heading{
+    font-size: 3.5rem;
+    font-family: Orbitron;
+    font-weight: 800;
+}
+.hero-description{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 4rem;
+   
+}
+
+.button-email{
+font-size: 1rem;
+color: grey;
+padding-left: 2rem;
+padding-right: 2rem;
+border-radius:10px;
+font-family: Orbitron;
+/* margin-top: -8rem; */
+}
+.button-join{
+    font-family: Orbitron;
+    font-size: 1rem;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px; 
+    /* margin-top: 4rem; */
+
+}
+
+.flexx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.contact-heading{
+    font-size: 1.2rem;
+    color: grey;  
+    font-weight: 400;
+    font-family: poppins;
+    padding-bottom: 1rem;
+}
+.icons{
+   font-size: 1rem;
+}
+
+
+
+
+
+
+
+/*  Media Quesrry */
+
+
+@media only screen and (max-width: 375px) {
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+}    
+.hero-heading{
+    font-size: 24px;
+}
+.img-size{
+    width: 100px;
+}
+.list{
+    display: none;
+}
+}
